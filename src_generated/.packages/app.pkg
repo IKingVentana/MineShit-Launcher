@@ -1,0 +1,15 @@
+[classes]
+app\forms\Info
+app\forms\MainForm
+app\forms\MainFormLoginned
+app\forms\NoUpdate
+app\forms\Profile
+app\forms\Settings
+app\forms\SettingsMods
+app\forms\Update
+app\modules\AppVersion
+app\modules\ControlFinder
+app\modules\DownloaderModule
+app\modules\LogHelper
+app\modules\MainModule
+app\modules\VersionModule
