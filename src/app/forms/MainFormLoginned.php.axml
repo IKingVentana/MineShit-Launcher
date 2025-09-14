@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  <method name="doModSettingsButtonClickL">
+      <showNewForm form="SettingsMods" form-type="form"/>
+      <elementSetText object="~sender" object-type="object" relative="" relative-type="" value="Принять настройки" value-type="string"/>
+      <hideForm form="SettingsMods" form-type="form"/>
+      <elementSetText object="~sender" object-type="object" relative="" relative-type="" value="Настройки модов" value-type="string"/>
+    </method>
+  <method name="doDiscordButtonClickL">
+      <browse url="https://discord.com/invite/K5xeTx8xPR" url-type="string"/>
+    </method>
+  <method name="doTelegramButtonClickL">
+      <browse url="https://discord.com/invite/PTdbZkPPNA" url-type="string"/>
+    </method>
+  <method name="doFolderButtonClickLeft">
+      <open file="" file-type="string"/>
+    </method>
+  <method name="doSettingsButtonClickLeft">
+      <loadForm form="Settings" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  <method name="doModSettingsButtonClickLeft">
+      <elementShow object="form('SettingsMods')" object-type="object"/>
+    </method>
+  </class>
+<class name="MainFormLoginned">
+    <method name="doLogoutButtonClickL">
+      <loadForm form="MainForm" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+    </method>
+  
+  <method name="doDiscordButtonClickLeft">
+      <browse url="https://discord.gg/K5xeTx8xPR" url-type="string"/>
+    </method>
+  <method name="doTelegramButtonClickLeft">
+      <browse url="http://t.me/mscreate_ru" url-type="string"/>
+    </method>
+  
+  <method name="doDonateButtonClickLeft">
+      <browse url="https://tbank.ru/cf/uSCxVtuotA" url-type="string"/>
+    </method>
+  
+  
+  <method name="doProfileButtonClickLeft">
+      <message kind="INFORMATION" kind-type="string" value="Раздел &quot;Профиль&quot; находится в разработке.  Функционал будет добавлен в будущих версиях лаунчера." value-type="string" wait="1" wait-type=""/>
+    </method>
+  </class>
+</root>

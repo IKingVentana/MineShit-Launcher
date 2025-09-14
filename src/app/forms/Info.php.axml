@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Info">
+    
+  <method name="doDonateButtonClickLeft">
+      <browse url="https://tbank.ru/cf/uSCxVtuotA" url-type="string"/>
+    </method>
+  <method name="doReportButtonClickLeft">
+      <browse url="https://forms.gle/aUsfMoxiUT4AB4Hf7" url-type="string"/>
+    </method>
+  <method name="doResizeButtonClickLeft">
+      <message kind="INFORMATION" kind-type="string" value="Изменение масштаба пока не поддерживается. Следите за обновлениями!" value-type="string" wait="1" wait-type=""/>
+    </method>
+  <method name="doFAQButtonClickLeft">
+      <browse url="https://t.me/c/1904936807/5470" url-type="string"/>
+    </method>
+  </class>
+</root>

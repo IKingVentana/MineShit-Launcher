@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  <method name="doModSettingsButtonClickL">
+      <showNewForm form="SettingsMods" form-type="form"/>
+      <elementSetText object="~sender" object-type="object" relative="" relative-type="" value="Принять настройки" value-type="string"/>
+      <hideForm form="SettingsMods" form-type="form"/>
+      <elementSetText object="~sender" object-type="object" relative="" relative-type="" value="Настройки модов" value-type="string"/>
+    </method>
+  <method name="doDiscordButtonClickL">
+      <browse url="https://discord.com/invite/K5xeTx8xPR" url-type="string"/>
+    </method>
+  <method name="doTelegramButtonClickL">
+      <browse url="https://discord.com/invite/PTdbZkPPNA" url-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doDissableModSettingsButtonClickLeft(">
+      <message kind="WARNING" kind-type="string" value="Настройки модов доступны только авторизованным пользователям. Пожалуйста, войдите в свой профиль." value-type="string" wait="1" wait-type=""/>
+    </method>
+  
+  <method name="doDiscordButtonClickLeft">
+      <browse url="https://discord.gg/K5xeTx8xPR" url-type="string"/>
+    </method>
+  <method name="doTelegramButtonClickLeft">
+      <browse url="http://t.me/mscreate_ru" url-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doModSettingsButtonClickLeft">
+      <message kind="WARNING" kind-type="string" value="Вы ещё не вошли в профиль. Доступ к настройкам модов возможен только после входа." value-type="string" wait="1" wait-type=""/>
+    </method>
+  <method name="doStartButtonClickLeft">
+      <message kind="ERROR" kind-type="string" value="Запуск невозможен: профиль не выбран. Пожалуйста, войдите в аккаунт, прежде чем запускать игру." value-type="string" wait="1" wait-type=""/>
+    </method>
+  </class>
+</root>

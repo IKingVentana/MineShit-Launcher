@@ -1,0 +1,33 @@
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_jre.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_jre.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_assets.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_assets.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_bin.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_bin.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_libraries.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_libraries.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_versions.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_versions.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_webcache2.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_webcache2.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_config.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_config.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_kubejs.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_kubejs.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_resourcepacks.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_resourcepacks.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Local\Temp\\ms_tmp_shaderpacks.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Local\Temp\\ms_tmp_shaderpacks.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game'"
+ZIP: C:\Users\peren\AppData\Roaming\.mineshit\game\mods\bigmods.zip
+DEST: C:\Users\peren\AppData\Roaming\.mineshit\game\mods\
+CMD: powershell -NoProfile -Command "Expand-Archive -Force -LiteralPath 'C:\Users\peren\AppData\Roaming\.mineshit\game\mods\bigmods.zip' -DestinationPath 'C:\Users\peren\AppData\Roaming\.mineshit\game\mods\'"

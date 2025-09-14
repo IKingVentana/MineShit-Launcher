@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="peren" authorOS="Windows 10" createdAt="1752079739210" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="MineShit Launcher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1755277368346">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file selected="1" src="MineShit Launcher.dnproject"/>
+    <file src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/MainFormLoginned.php"/>
+    <file src="src/.theme/style.fx.css"/>
+    <file src="src/app/forms/SettingsMods.php"/>
+    <file src="src/app/forms/Settings.php"/>
+    <file src="src/app/forms/Update.php"/>
+    <file src="src/app/forms/NoUpdate.php"/>
+    <file src="src/app/forms/Info.php"/>
+    <file src="src/app/modules/AppVersion.php"/>
+    <file src="src/app/modules/DownloaderModule.php"/>
+    <file src="src/app/modules/LogHelper.php"/>
+    <file src="src/app/forms/Profile.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152" prefWidth="304" styleClass="">
+  <children>
+    <FlatButton alignment="CENTER" borderRadius="16" color="#ebf4ff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="12" hoverColor="#b6d4fa" id="FAQButton" layoutX="16" layoutY="56" prefHeight="40" prefWidth="160" styleClass="x-flat-button " text="FAQ" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Roboto" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/faq.png" id="data-FAQButton" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="16" color="#ebf4ff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="12" hoverColor="#b6d4fa" id="ResizeButton" layoutX="184" layoutY="56" prefHeight="40" prefWidth="104" styleClass="x-flat-button " text="100%" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Roboto" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/resize.png" id="data-ResizeButton" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="16" color="#ebf4ff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="12" hoverColor="#b6d4fa" id="DonateButton" layoutX="128" layoutY="104" prefHeight="40" prefWidth="160" styleClass="x-flat-button " text="Пожертвовать" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Roboto" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/donate b.png" id="data-DonateButton" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="16" color="#d41721" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="12" hoverColor="#d54b52" id="ReportButton" layoutX="16" layoutY="104" prefHeight="40" prefWidth="104" styleClass="x-flat-button " text="Репорт" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Roboto" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/report.png" id="data-ReportButton" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="16" color="#000000" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" hoverColor="#191a1b" id="LauncherVersion" layoutX="16" layoutY="8" prefHeight="40" prefWidth="132" styleClass="x-flat-button " text="Лаунчер:" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Roboto" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-LauncherVersion" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="16" color="#000000" contentDisplay="LEFT" ellipsisString="" focusTraversable="true" graphicTextGap="4" hoverColor="#191a1b" id="ServerVersion" layoutX="156" layoutY="8" prefHeight="40" prefWidth="132" styleClass="x-flat-button " text="Сервер:" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Roboto" size="14"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-ServerVersion" visible="1"/>
+  </children>
+</AnchorPane>

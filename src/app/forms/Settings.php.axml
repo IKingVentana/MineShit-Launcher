@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Settings">
+    
+  
+  
+  
+  <method name="doInfoButtonClickLeft">
+      <showForm form="Info" form-type="form"/>
+    </method>
+  
+  
+  <method name="doChangePutClickL">
+      <message kind="ERROR" kind-type="string" value="Изменить путь игры в данный момент невозможно. Просим извинения." value-type="string" wait="1" wait-type=""/>
+    </method>
+  
+  
+  
+  
+  
+  
+  <method name="doChangePutButtonClickLeft">
+      <message kind="WARNING" kind-type="string" value="Изменение пути установки временно недоступно. Мы работаем над добавлением этой функции." value-type="string" wait="1" wait-type=""/>
+    </method>
+  
+  <method name="doDeleteLauncherButtonClickLeft">
+      <message kind="INFORMATION" kind-type="string" value="Удалить лаунчер? Просто закройте его и удалите файл MineShit Launcher.exe вручную." value-type="string" wait="1" wait-type=""/>
+    </method>
+  </class>
+</root>
